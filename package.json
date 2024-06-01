@@ -1,0 +1,26 @@
+{
+  "name": "submission1-open-music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/server.js",
+    "migrate": "node-pg-migrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "auto-bind": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "joi": "^17.13.1",
+    "nanoid": "^3.1.20",
+    "node-pg-migrate": "^7.3.2",
+    "pg": "^8.11.5"
+  }
+}
